@@ -20,26 +20,39 @@ html, body {
   height: 80%;
 }
 
+.profile-picture {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
 .left {
-  background-color: lightgreen;
-  margin: 5px;
-  max-width: 40%;
+  background-color: white;
+  margin: 15px;
+  max-width: 22%;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
+  padding: 5px 5px 5px 5px;
+}
 
+.job {
+font-size: 14px
 }
 
 .right {
   background-color: white;
-  margin: 20px;
-  max-width: 60%;
+  margin: 5px;
+  max-width: 78%;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
+  flex-direction: column
 }
 
 /* -------------------------- */
@@ -54,14 +67,14 @@ html, body {
 }
 
 .social-links li {
-  display: block;
-  margin-right: 4px;
+  display: inline-flex;
+
 }
 
 .social-links a {
   text-decoration: none;
-  padding: 4px;
-  display: block;
+  padding: 10px;
+  display: inline-flex;
   text-align: left;
 
 }
@@ -83,7 +96,7 @@ html, body {
   background-color: white;
 }
 
-.res, .pubs, .cv {
+.res, .pubs, .cv,.about {
   float: right;
 }
 
@@ -100,7 +113,7 @@ html, body {
     position: relative;
 }
 
-.menu li a:before {
+.menu li a:not(.active):before {
   content: "";
   position: absolute;
   width: 100%;
@@ -113,8 +126,51 @@ html, body {
   transition: all 0.3s ease-in-out;
 }
 
-.menu li a:hover:before {
+.menu li a:not(.active):hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
 /* -------------------------- */
+.active{
+  font-weight:bold;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  font-size: 14px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin{
+  background: #006699;
+  color: white;
+}
+/* Github */
+.fa-github{
+  background: black;
+  color: white;
+}
