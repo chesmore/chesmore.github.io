@@ -22,54 +22,59 @@ html, body {
 
 .left {
   background-color: lightgreen;
-
   margin: 5px;
-  max-width: 35%;
+  max-width: 40%;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+
 }
 
 .right {
   background-color: white;
   margin: 20px;
-  max-width: 65%;
+  max-width: 60%;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.left {
-  align-items: center;
-  justify-content: center;
-}
-
-/* .profile-picture {
-  border-radius: 100%;
-} */
+/* -------------------------- */
 
 .social-links {
   list-style: none;
   padding-left: 0px;
-  font-size: 18px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .social-links li {
-  display: inline-block;
-  margin-right: 8px;
+  display: block;
+  margin-right: 4px;
 }
 
 .social-links a {
   text-decoration: none;
   padding: 4px;
+  display: block;
+  text-align: left;
+
 }
 
-.social-links a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+.social-links li a
+{
+    position: relative;
 }
 
+.social-links li a:hover{
+  text-decoration: underline;
+}
+/* -------------------------- */
 .menu {
   list-style-type: none;
   margin: 0;
@@ -84,13 +89,32 @@ html, body {
 
 .menu a{
   display: block;
-  color: black;
+  /* color: white; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.menu a:hover {
-  background-color: #333;
+.menu li a
+{
+    position: relative;
 }
+
+.menu li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu li a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+/* -------------------------- */
