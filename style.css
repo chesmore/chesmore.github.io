@@ -62,7 +62,7 @@ font-size: 14px
   padding-left: 0px;
   font-size: 14px;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
 }
 
@@ -92,6 +92,7 @@ font-size: 14px
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 18px;
   overflow: hidden;
   background-color: white;
 }
@@ -137,7 +138,7 @@ font-size: 14px
 
 /* Style all font awesome icons */
 .fa {
-  padding: 15px;
+  padding: 5px;
   font-size: 14px;
   width: 15px;
   text-align: center;
@@ -172,5 +173,10 @@ font-size: 14px
 /* Github */
 .fa-github{
   background: black;
+  color: white;
+}
+/* Google Scholar */
+.fa-google{
+  background: red;
   color: white;
 }
