@@ -53,7 +53,7 @@ font-size: 14px
   max-width: 78%;
   flex: 100%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 /* -------------------------- */
@@ -85,7 +85,7 @@ font-size: 14px
     position: relative;
 }
 
-.social-links li a:hover{
+.social-links li a:not(.location):hover{
   text-decoration: underline;
 }
 /*
