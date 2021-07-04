@@ -1,5 +1,5 @@
 html, body {
-  display:  block;
+  display:  inline-block;
   align-items: left;
   justify-content: left;
   height: 100%;
@@ -14,7 +14,7 @@ html, body {
 }
 
 .wrapper {
-  max-width: 80%;
+  max-width: 90%;
   display: flex;
   flex-direction: row;
   height: 80%;
@@ -35,11 +35,12 @@ figcaption {
   background-color: white;
   margin: 15px;
   max-width: 22%;
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 5px 5px 5px 5px;
+  flex: 50%;
 }
 
 .job {
@@ -50,7 +51,7 @@ font-size: 14px
   background-color: white;
   margin: 5px;
   max-width: 78%;
-  flex: 1;
+  flex: 100%;
   display: flex;
   flex-direction: column
 }
@@ -86,6 +87,16 @@ font-size: 14px
 
 .social-links li a:hover{
   text-decoration: underline;
+}
+
+.social-links li:nth-child(1) {
+    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal01.png');
+}
+.social-links li:nth-child(2) {
+    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal02.png');
+}
+.social-links li:nth-child(3) {
+    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal03.png');
 }
 /* -------------------------- */
 .menu {
@@ -152,12 +163,6 @@ font-size: 14px
 }
 
 /* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
 
 /* Twitter */
 .fa-twitter{
