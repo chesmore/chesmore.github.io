@@ -16,7 +16,7 @@ html, body {
 .wrapper {
   max-width: 90%;
   display: flex;
-  flex-direction: row;
+  flex-flow: column wrap;
   height: 80%;
 }
 
@@ -35,12 +35,12 @@ figcaption {
   background-color: white;
   margin: 15px;
   max-width: 22%;
-  /* flex: 1; */
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 5px 5px 5px 5px;
-  flex: 50%;
+  /* flex: 50%; */
 }
 
 .job {
@@ -64,17 +64,17 @@ font-size: 14px
   font-size: 14px;
   margin: 0;
   padding: 5px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.social-links li {
+/* .social-links li {
   display: inline-flex;
 
-}
+} */
 
 .social-links a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   display: inline-flex;
   text-align: left;
 
@@ -88,7 +88,7 @@ font-size: 14px
 .social-links li a:hover{
   text-decoration: underline;
 }
-
+/*
 .social-links li:nth-child(1) {
     list-style-image: url('http://google-maps-icons.googlecode.com/files/teal01.png');
 }
@@ -97,7 +97,7 @@ font-size: 14px
 }
 .social-links li:nth-child(3) {
     list-style-image: url('http://google-maps-icons.googlecode.com/files/teal03.png');
-}
+} */
 /* -------------------------- */
 .menu {
   list-style-type: none;
@@ -148,40 +148,40 @@ font-size: 14px
 }
 
 /* Style all font awesome icons */
-.fa {
+/* .fa {
   padding: 5px;
   font-size: 14px;
   width: 15px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-}
+} */
 
 /* Add a hover effect if you want */
-.fa:hover {
+/* .fa:hover {
   opacity: 0.7;
-}
+} */
 
 /* Set a specific color for each brand */
 
 /* Twitter */
-.fa-twitter{
+/* .fa-twitter{
   background: #55ACEE;
   color: white;
-}
+} */
 
 /* Linkedin */
-.fa-linkedin{
+/* .fa-linkedin{
   background: #006699;
   color: white;
-}
+} */
 /* Github */
-.fa-github{
+/* .fa-github{
   background: black;
   color: white;
-}
+} */
 /* Google Scholar */
-.fa-google{
+/* .fa-google{
   background: red;
   color: white;
-}
+} */
