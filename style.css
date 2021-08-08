@@ -133,7 +133,7 @@ font-size: 22px
   padding: 5px;
   font-size: 18px;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   overflow: hidden;
 
 }
@@ -144,7 +144,7 @@ font-size: 22px
 
 .menu a{
   display: block;
-  /* color: white; */
+  color: white;
   text-align: center;
   padding: 10px 30px;
   text-decoration: none;
@@ -153,6 +153,7 @@ font-size: 22px
 .menu li a
 {
     position: relative;
+
 }
 
 /* .menu li a:not(.active):before {
@@ -184,7 +185,7 @@ font-size: 22px
   font-size: 18px;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
