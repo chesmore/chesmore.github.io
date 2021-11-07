@@ -92,35 +92,59 @@
 					<p>
 						The science goals of SO require high sensitivity and tight control over systematic errors. Since the sensitivity of state of
 						the art millimeter-wave receivers is limited by photon noise from background radiation, improvements in sensitivity for a
-						given instrument require careful control over every part of the instrument.  In my work, I work to measure, model, and control the optical
+						given instrument require careful control over every part of the instrument.  I measure, model, and control the optical
 						systematics of the SO LAT.
 					</p>
 
-					<h3 style="-webkit-margin-before: 1.5em;">Holography</h3>
+					<h3 style="-webkit-margin-before: 1.5em;">Refractive Holography</h3>
 					<p align="justify" style="margin-bottom: 1rem">
 						Radio holography consists of measuring the electric field amplitude and phase of the beam, and then utilizing the Fourier
-						transform relationship between the aperture fields and beam to extract the fields and phase on the aperture plane. In our case,
-						variations in the phase of the aperture plane are interpreted as
+						transform relationship between the aperture fields and beam to extract the fields and phase on the aperture plane.
+				 </p>
+				 <img src="images/focalplane.jpeg" alt="" width="270px" style="float:right; padding-left:30px; padding-bottom:30px">
+				 <p align="justify" style="margin-bottom: 1rem">
+						At the University of Chicago, the McMahon lab is performing a series of cryogenic tests on a LAT
+						optics tube (OT) prior to its deployment to Chile.
+						One of the tests is <em>holography</em>, which maps the electric field as it propagates
+						through the optical tube.
+					</p>
+
+					<p align="justify" style="margin-bottom: 0.5rem; padding-bottom: 0rem">
+						<b>Papers:</b>
+					</p>
+					<ul style="margin-bottom: 2rem; margin-left: 2rem; padding-bottom: 0rem">
+						<li><a href="https://arxiv.org/abs/2102.02129"> <i>The Integration and Testing Program for
+							the Simons Observatory Large Aperture Telescope Optics Tubes</i></a>, Proc. SPIE 11453,
+							Millimeter, Submillimeter, and Far-Infrared Detectors and Instrumentation for Astronomy X,
+							1145318, 2020.</li>
+						<li> More coming soon!
+						</li>
+					</ul>
+
+					<h3 style="-webkit-margin-before: 1.5em;">Reflective Holography</h3>
+					<p align="justify" style="margin-bottom: 1rem">
+						Radio holography can also be applied to reflective optics, for example in studying antenna surface deformations.
+						In the case of the SO LAT, which has two reflective surfaces, variations in the phase of the aperture plane are interpreted as
 						two times the errors in the mirror surface.
 					</p>
-					<p>
+					<p align="justify" style="margin-bottom: 1rem">
 						I developed <a href="https://github.com/McMahonCosmologyGroup/holosim-ml" >Holosim-ML</a>, a Python code for beam simulation and analysis of radio holography data from complex optical systems.
 						This code uses machine learning to efficiently determine the position of hundreds of mirror adjusters on
 						multiple mirrors with few micron accuracy. In an upcoming publication, we apply this approach to the
 						example of the <a href="https://simonsobservatory.org/">Simons Observatory</a> 6m telescope.
 					</p>
 					<figure>
-	          <img src="images/far_field_win_func.png" width="100%" alt="centered image"/>
-	          <figcaption>Far-field beam simulation of a 150 GHz source, with surface error root-mean-square
-	            of 0 µm, 20 µm, 35 µm, and 50 µm.  The side-lobes around the central beam increase as RMS of
-	            panel errors increases. </figcaption>
-	        </figure>
+						<img src="images/far_field_win_func.png" width="100%" alt="centered image"/>
+						<figcaption>Far-field beam simulation of a 150 GHz source, with surface error root-mean-square
+							of 0 µm, 20 µm, 35 µm, and 50 µm.  The side-lobes around the central beam increase as RMS of
+							panel errors increases. </figcaption>
+					</figure>
 					<p align="justify" style="margin-bottom: 0.5rem; padding-bottom: 0rem">
 						<b>Papers:</b>
 					</p>
 					<ul style="margin-bottom: 2rem; margin-left: 2rem; padding-bottom: 0rem">
 						<li><a href="https://arxiv.org/abs/2107.04138"> <i>The Simons Observatory: HoloSim-ML: machine learning applied to the efficient analysis of radio
-	            holography measurements of complex optical systems</i></a>, Applied Optics, 2021.</li>
+							holography measurements of complex optical systems</i></a>, Applied Optics, 2021.</li>
 					</ul>
 
 					<h3 style="-webkit-margin-before: 1.5em;">Meta-material Absorbers</h3>
@@ -131,32 +155,27 @@
 		        black, spikey wedges coat the inside of the optics tubes.  The spikes are intentional;  Their shape is optimized
 		        to absorb the millimeter-wave frequencies scattering within the telescopes.
 					</p>
-					<!-- <span class="image main"><img src="images/eccentricity.png" alt=""></span> -->
-					<p>
-					In 2021, Zhilei Xu, I, and the Simons Observatory <a href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-60-4-864" >published</a> the meta-material
-					absorbers in Applied Optics, where we describe the design, production, and optical properties.
+
+					<p align="justify" style="margin-bottom: 1rem">
+					In 2021, Zhilei Xu, I, and the Simons Observatory <a href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-60-4-864" >published</a>
+					the meta-material absorbers (MMA) in Applied Optics, where we describe the design, production, and optical properties.
 					The OSA Applied Optics Journal published a <a href="https://www.osa.org/en-us/about_osa/newsroom/news_releases/2021/metamaterial_tiles_boost_sensitivity_of_large_tele/" >press release</a>
 					"Metamaterial Tiles Boost Sensitivity of Large Telescopes", and the article was Editor's Choice for the volume.
+
+					<figure>
+						<img src="images/real_tile.png" width="100%" alt="centered image"/>
+						<figcaption>Manufactured MMA tiles.  A zoomed-in photo of the pyramids is shown in the top insert.
+							The pitch between pyramids is 0.6 mm; this value is tailored to absorb specific wavelengths in the optics tube.
+							The back of the tiles have pockets, which are visible along with the brass injected M3 nut for fastening to the walls of the tube.
+							The photo on the right shows the assembly of 240 tiles installed on the wallof the SO LAT optics tube section.</figcaption>
+					</figure>
+
 					<p align="justify" style="margin-bottom: 0.5rem; padding-bottom: 0rem">
 						<b>Papers:</b>
 					</p>
 					<ul style="margin-bottom: 2rem; margin-left: 2rem; padding-bottom: 0rem">
 						<li><a href="https://arxiv.org/abs/2010.02233"> <i>The Simons Observatory: Metamaterial Microwave Absorber (MMA) and its
 	            Cryogenic Applications</i></a>, Applied Optics, 2021.</li>
-					</ul>
-					<p></p>
-
-					<h3 style="-webkit-margin-before: 1.5em;">Project 3</h3>
-					<p align="justify" style="margin-bottom: 1rem">
-					fdjskfjsadlkfds
-					</p>
-					<!-- <span class="image main"><img src="images/priors.png" alt=""></span> -->
-
-					<p align="justify" style="margin-bottom: 0.5rem; padding-bottom: 0rem">
-						<b>Papers:</b>
-					</p>
-					<ul style="margin-bottom: 2rem; margin-left: 2rem; padding-bottom: 0rem">
-						<li><a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...899L..17Z/abstract">Paper 3</a></li>
 					</ul>
 
 				<div class="close">Close</div></article>
@@ -312,11 +331,25 @@
 			<article id="media" style="" class="active">
 					<h2 class="major">Media</h2>
 					<figure>
-					<img src="images/focalplane.jpeg" alt="" width="270px" style="float:right; padding-left:15px; padding-bottom:30px">
-				  </figure>
-
+					<img src="images/focalplane.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<figcaption style="text-align: center;">Holography readout in the SO LAT focal plane.</figcaption>
+					</figure>
+					<br>
 					<figure>
-					<img src="images/filters.jpeg" alt="" width="270px" style="float:left; padding-left:15px; padding-bottom:30px">
+					<img src="images/latrt.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<figcaption style="text-align: center;">LAT Receiver Tester open before cooldown.</figcaption>
+				  </figure>
+					<br>
+					<figure>
+					<img src="images/filters.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<figcaption style="text-align: center;">Metal-mesh filter blocking infrared wavelengths in the optics tube.  The light table behind
+					the filter shows the pattern of the metal-mesh material.  </figcaption>
+				  </figure>
+					<br>
+					<figure>
+					<img src="images/feedhorns.png" alt="" width="60%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<figcaption style="text-align: center;">Simons Observatory feedhorns.  Each feedhorn guides the CMB photons onto
+					a detectors.  The SO LAT will contain over 30,000 detectors.</figcaption>
 				  </figure>
 
 								<div class="close">Close</div>
@@ -567,9 +600,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Grace E Chesmore (2020). Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+				<footer id="footer">
+										<ul class="icons">
+											<li><a href="mailto:chesmore@uchicago.edu" class="icon brands fa-telegram"><span class="label">Email</span></a></li>
+											<li><a href="https://twitter.com/grace_optics" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://www.linkedin.com/in/grace-e-chesmore-642317116/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+											<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+											<li><a href="https://github.com/chesmore" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										</ul>
+										<p class="copyright">© Grace E Chesmore (2021). All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+									</footer>
 
 			</div>
 
