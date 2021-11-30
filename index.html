@@ -6,6 +6,25 @@
 -->
 <html>
 	<head>
+
+		<style>
+		.headshot {
+			float:right;
+			padding-left:30px;
+			padding-bottom:30px;
+			width: 270px;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.headshot {
+				float:left;
+				padding-left:30px;
+				padding-bottom:30px;
+				width: 100%;
+			}
+		}
+		</style>
+
 		<title>Grace E. Chesmore</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -48,9 +67,9 @@
 			<!-- Intro -->
 			<article id="about" style="" class="active">
 					<h2 class="major">About</h2>
-					<img src="images/headshot.jpg" alt="" width="270px" style="float:right; padding-left:30px; padding-bottom:30px">
+					<img src="images/headshot.jpg" class="headshot" alt="">
 					<p align="justify">
-						I am a PhD Candidate at the University of Chicago.  I work with Professor
+						I am a PhD Candidate at the University of Chicago in the Department of Physics.  I work with Professor
 						<a href="https://physics.uchicago.edu/people/profile/jeffrey-mcmahon/">Jeff McMahon</a>
 	          as part of <a href="https://simonsobservatory.org/">The Simons Observatory</a>, <a href="https://act.princeton.edu/">Advanced ACTPol</a>,
 	          and the <a href="https://cmb-s4.org/">CMB-S4</a> collaborations.  I
