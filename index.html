@@ -15,9 +15,37 @@
 			width: 270px;
 		}
 
+		.lat_xsection {
+				float:right;
+				padding-left:30px;
+				padding-bottom:30px;
+				width: 270px;
+		}
+
+		.focplane {
+			float:right;
+			padding-left:30px;
+			padding-bottom:30px;
+			width: 270px;
+		}
+
 		@media only screen and (max-width: 600px) {
 			.headshot {
 				float:left;
+				padding-left:30px;
+				padding-bottom:30px;
+				width: 100%;
+			}
+
+			.lat_xsection {
+					float:right;
+					padding-left:30px;
+					padding-bottom:30px;
+					width: 100%;
+			}
+
+			.focplane {
+				float:right;
 				padding-left:30px;
 				padding-bottom:30px;
 				width: 100%;
@@ -116,7 +144,7 @@
 						Aperture Telescopes (SAT) which together will measure the temperature and polarization anisotropy of the CMB from
 						several degrees to arc-minute angular scales.
 					</p>
-					<img src="images/lat_xsection2.jpeg" alt="" width="270px" style="float:right; padding-left:30px; padding-bottom:30px">
+					<img src="images/lat_xsection2.jpeg" class = "lat_xsection" alt="">
 					<p>
 						The science goals of SO require high sensitivity and tight control over systematic errors.  Since the sensitivity of state of
 						the art millimeter-wave receivers is limited by photon noise from background radiation, improvements in sensitivity for a
@@ -137,7 +165,7 @@
 						Radio holography consists of measuring the electric field amplitude and phase of the beam, and then utilizing the Fourier
 						transform relationship between the aperture fields and beam to extract the fields and phase on the aperture plane.
 				 </p>
-				 <img src="images/focalplane.jpeg" alt="" width="270px" style="float:right; padding-left:30px; padding-bottom:30px">
+				 <img src="images/focalplane.jpeg" alt="" class = "focplane">
 				 <p align="justify" style="margin-bottom: 1rem">
 						At the University of Chicago, the McMahon lab is performing a series of cryogenic tests on a LAT
 						optics tube (OT) prior to its deployment to Chile.  One of the tests is <em>holography</em>, which
@@ -382,23 +410,23 @@
 			<article id="media" style="" class="active">
 					<h2 class="major">Media</h2>
 					<figure>
-					<img src="images/focalplane.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<img src="images/focalplane.jpeg" alt="" class = "focalplane" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
 					<figcaption style="text-align: center;">Holography readout in the SO LAT focal plane.</figcaption>
 					</figure>
 					<br>
 					<figure>
-					<img src="images/latrt.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<img src="images/latrt.jpeg" alt="" class = "latrt" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
 					<figcaption style="text-align: center;">LAT Receiver Tester open before cooldown.</figcaption>
 				  </figure>
 					<br>
 					<figure>
-					<img src="images/filters.jpeg" alt="" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<img src="images/filters.jpeg" alt="" class = "filers" width="80%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
 					<figcaption style="text-align: center;">Metal-mesh filter blocking infrared wavelengths in the optics tube.  The light table behind
 					the filter shows the pattern of the metal-mesh material.  </figcaption>
 				  </figure>
 					<br>
 					<figure>
-					<img src="images/feedhorns.png" alt="" width="60%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
+					<img src="images/feedhorns.png" alt="" class = "feedhorns" width="60%" style="vertical-align : middle;display: table-cell;margin: 0 auto;text-align: center;">
 					<figcaption style="text-align: center;">Simons Observatory feedhorns.  Each feedhorn guides the CMB photons onto
 					a detectors.  The SO LAT will contain over 30,000 detectors.</figcaption>
 				  </figure>
