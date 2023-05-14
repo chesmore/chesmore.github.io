@@ -79,5 +79,5 @@ email: 'grace@ayarlabs.io'
 highlight_name: true
 ---
 
-I am an experimental physicist and researcher in optics.  At [Ayar Labs](https://ayarlabs.com/), I am a Senior Engineer where I work on the integration and characterization of optical microchips.
+I am an experimental physicist and researcher in optics.  As a Senior Engineer at [Ayar Labs](https://ayarlabs.com/), I work on the integration and characterization of the multi-wavelength source, specifically in the Module Reliability team.
 {style="text-align: justify;"}
