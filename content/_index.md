@@ -73,30 +73,30 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://science.osti.gov/wdts/scgsr/
           date_end: ''
           date_start: '2022-01-25'
-          description: ''
-          organization: Department of Energy
-          organization_url: https://www.doe.org
-          title: Department of Energy 
-          url: ''
-        - certificate_url: https://www.edx.org
+          description: 'The SCGSR program provides supplemental awards to outstanding U.S. graduate students (US citizens or lawful permanent residents) to pursue part of their graduate thesis research at a DOE laboratory/facility in areas that address scientific challenges central to the Office of Science mission.'
+          organization: Department of Energy Science Graduate Student Research (SCGSR) Program
+          organization_url: https://science.osti.gov/wdts/scgsr/
+          title: Department of Energy SCGSR Fellow
+          url: 'https://science.osti.gov/wdts/scgsr/'
+        - certificate_url: https://www.nsfgrfp.org/
           date_end: ''
           date_start: '2018-07-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
+          description: 'The purpose of the NSF Graduate Research Fellowship Program (GRFP) is to ensure the quality, vitality, and diversity of the scientific and engineering workforce of the United States. GRFP seeks to broaden participation in science and engineering of underrepresented groups, including women, minorities, persons with disabilities, and veterans.'
           organization: NSF Graduate Research Fellowship
-          organization_url: https://www.edx.org
-          title: Graduate Research Fellow
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
+          organization_url: https://www.nsfgrfp.org/
+          title: NSF Graduate Research Fellow
+          url: https://www.nsfgrfp.org/
+        - certificate_url: https://www.nasa.gov/directorates/spacetech/strg/nstgro
           date_end: ''
           date_start: '2018-07-01'
-          description: 'Declined award offer.'
+          description: 'The goal of NSTRF is to sponsor U.S. citizen and permanent resident graduate students who show significant potential to contribute to NASA’s goal of creating innovative new space technologies for our Nation’s science, exploration and economic future.  Declined award offer.'
           organization: NASA Space Technology Research Fellowship
-          organization_url: https://www.datacamp.com
+          organization_url: https://www.nasa.gov/directorates/spacetech/strg/nstgro
           title: 'NASA Space Technology Research Fellow'
-          url: ''
+          url: 'https://www.nasa.gov/directorates/spacetech/strg/nstgro'
     design:
       columns: '2'
   - block: collection
