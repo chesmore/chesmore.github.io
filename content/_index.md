@@ -43,20 +43,28 @@ sections:
         - title: Senior Engineer (Module Reliability)
           company: Ayar Labs
           company_url: 'https://www.ayarlabs.com/'
-          company_logo: org-gc
+          company_logo: ayar
           location: Santa Clara, California USA
           date_start: '2023-05-22'
           date_end: ''
           description: |2-
-              Ayar Labs develops optical microchips. 
-        - title: PhD Candidate
+              As a Sr. Engineer, I am collaborating on Multi-Wavelength Source (MWS) product development for Ayar Labs.  This includes developing and executing reliability test plans for the MWS product, as well as working with the design team to ensure that the MWS product meets reliability requirements.
+        - title: Graduate Researcher
           company: University of Chicago
           company_url: ''
-          company_logo: org-x
+          company_logo: uchi
           location: Chicago, Illinois USA
           date_start: '2019-11-01'
           date_end: '2023-03-01'
-          description: Working in Jeff McMahon's experimental cosmology group, I characterized and modelled optical elements for the Simons Observatory, a next-generation cosmology experiment.
+          description: Working in Jeff McMahon's experimental cosmology group, I characterized and modeled optical elements for the Simons Observatory, a next-generation cosmology experiment.
+        - title: Graduate Researcher
+          company: University of Michigan
+          company_url: ''
+          company_logo: umich
+          location: Ann Arbor, Michigan USA
+          date_start: '2017-09-01'
+          date_end: '2019-07-01'
+          description:
     design:
       columns: '2'
   - block: accomplishments
@@ -99,33 +107,33 @@ sections:
           url: 'https://www.nasa.gov/directorates/spacetech/strg/nstgro'
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: News
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: News
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
   # - block: portfolio
   #   id: projects
   #   content:
