@@ -71,7 +71,7 @@ sections:
     id: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Awards'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -123,7 +123,7 @@ sections:
     id: contact
     content:
       title: Contact
-      email: grace@ayarlabs.io
+      email: grace@ayarlabs.com
       contact_links:
 
       autolink: true

@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sr. Engineer, Module Reliability.  Experimental researcher in optics.
+role: Sr. Engineer, Module Reliability.  Experimental researcher in optics and photonics.
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -27,7 +27,8 @@ bio:
 # Interests to show in About widget
 interests:
   - Optics
-  - Integration & Characterization
+  - Laser reliability
+  - Optical characterization
 
 # Education to show in About widget
 education:
@@ -64,7 +65,7 @@ social:
     link: https://github.com/chesmore
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/grace-chesmore-642317116/
+    link: https://www.linkedin.com/in/grace-chesmore/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -73,11 +74,11 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'grace@ayarlabs.io'
+email: 'grace@ayarlabs.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am an experimental physicist and researcher in optics.  As a Senior Engineer at [Ayar Labs](https://ayarlabs.com/), I work on the integration and characterization of the multi-wavelength source, specifically in the Module Reliability team.
+I am an experimental physicist and researcher in photonics.  As a Senior Engineer at [Ayar Labs](https://ayarlabs.com/), I work to characterize the [SupNova multi-wavelength laser source](https://ayarlabs.com/supernova/). I am a part of the Module Reliability team where I characterize the SuperNova laser source's performance to meet customer demands.
 {style="text-align: justify;"}
