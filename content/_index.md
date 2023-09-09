@@ -40,7 +40,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Senior Engineer (Module Reliability)
+        - title: Senior Engineer (Data Analytics and Reliability)
           company: Ayar Labs
           company_url: 'https://www.ayarlabs.com/'
           company_logo: ayar
@@ -48,7 +48,7 @@ sections:
           date_start: '2023-05-22'
           date_end: ''
           description: |2-
-              As a Sr. Engineer, I am collaborating on Multi-Wavelength Source (MWS) product development for Ayar Labs.  This includes developing and executing reliability test plans for the MWS product, as well as working with the design team to ensure that the MWS product meets reliability requirements.
+              As a Sr. Engineer, I focus on data analytics for the Multi-Wavelength Source (MWS) product development for Ayar Labs.  This includes developing data pipelines for the reliability team and executing reliability test plans for the MWS product.
         - title: Graduate Researcher
           company: University of Chicago
           company_url: ''
