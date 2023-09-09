@@ -80,5 +80,5 @@ email: 'grace@ayarlabs.com'
 highlight_name: true
 ---
 
-I am an experimental physicist and researcher in photonics.  As a Senior Engineer at [Ayar Labs](https://ayarlabs.com/), I work to characterize the [SupNova multi-wavelength laser source](https://ayarlabs.com/supernova/). I am a part of the Module Reliability team where I characterize the SuperNova laser source's performance to meet customer demands.
+I am an experimental physicist and researcher in photonics.  As a Senior Engineer at [Ayar Labs](https://ayarlabs.com/), I work on the [SupNova multi-wavelength laser source](https://ayarlabs.com/supernova/), where I develop data tools and conduct laser performance analysis.
 {style="text-align: justify;"}
